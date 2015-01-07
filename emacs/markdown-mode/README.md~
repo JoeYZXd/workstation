@@ -1,0 +1,75 @@
+# Tips of using Markdown-Mode #
+
+-------------------------------------------------------------------------------
+
+Click me to the homepage of [markdown-mode](http://jblevins.org/projects/markdown-mode/)
+
+BTW, You can find all the key binding by `C-c C-h`
+
+Markdown Grammar By Wiki [EN](http://en.wikipedia.org/wiki/Markdown) [ZH](http://zh.wikipedia.org/wiki/Markdown)
+
+-------------------------------------------------------------------------------
+
+# Examples: #
+
+-------------------------------------------------------------------------------
+
+# Heading 1 #
+`# Heading 1 # C-c C-t 1`
+## Heading 2 ##
+`## Heading 2 ## C-c C-t 2`
+
+-------------------------------------------------------------------------------
+
+Let 2 spaces at the end of a line to do a  
+line break
+
+-------------------------------------------------------------------------------
+
+Text attributes *italic*, **bold**, `monospace`, ~~strikethrough~~ .  
+``Text attributes *italic*, **bold**, `monospace`, ~~strikethrough~~ .``
+
+-------------------------------------------------------------------------------
+
+Clickable email address: <joy.zhangxiaodong@gmail.com>  
+Clickable email address: `<joy.zhangxiaodong@gmail.com>`
+
+-------------------------------------------------------------------------------
+
+A [link](http://example.com).  
+`A [link](http://example.com).  C-c C-a l`
+
+-------------------------------------------------------------------------------
+
+Shopping list:
+
+* apples
+* oranges
+  * oranges
+* pears
+  * pears
+    * pears
+	  * bananas
+
+`* apples`  
+`* oranges`  
+  `* oranges`  
+`* pears`
+  `* pears`  
+    `* pears`  
+	  `* bananas`  
+
+-------------------------------------------------------------------------------
+
+Numbered list:
+
+1. apples
+2. oranges
+3. pears
+
+`1. apples`  
+`2. oranges`  
+`3. pears`  
+
+-------------------------------------------------------------------------------
+
